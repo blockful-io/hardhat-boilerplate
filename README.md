@@ -1,13 +1,18 @@
-# Sample Hardhat Project
+# Hardhat boilerplate
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+ - [x] Huksy
+	 - [x] Lint commit message before commit
+	 - [x] Lint code before commit
+ - [ ] Solhint
+ - [ ] Slither
+ - [ ] Echnida
+ - [ ] Test coverage
+ - [ ] Verify contracts
+ - [ ] Get gas reports
+ - [ ] CI/CD with Github Actions
 
-Try running some of the following tasks:
+# How to run
+1. To install the dependencies
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+    yarn
+
